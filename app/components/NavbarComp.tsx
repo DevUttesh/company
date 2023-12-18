@@ -19,7 +19,7 @@ const NavbarComp = () => {
           <div className='lg:flex lg:gap-5 lg:items-center ' >
             <div className='gap-1 items-center uppercase hidden lg:flex' >
               <Link className=' flex items-center w-20 h-14 justify-center font-semibold hover:text-lime-500 transition ease-in-out duration-500' href={'/'} >Home</Link>
-              <div  className=' flex items-center w-20 h-14 justify-center font-semibold hover:text-lime-500 transition ease-in-out duration-500 group relative' href={'/'} >
+              <div  className=' flex items-center w-20 h-14 justify-center font-semibold hover:text-lime-500 transition ease-in-out duration-500 group relative' >
                 about <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                 </svg>
