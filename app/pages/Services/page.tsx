@@ -1,6 +1,6 @@
 import PageNav from '@/app/components/PageNav'
 import Service from '@/app/components/Service'
-import { BuildingStorefrontIcon } from '@heroicons/react/24/outline'
+import { BuildingStorefrontIcon, CalendarDaysIcon, ChartBarIcon, CircleStackIcon, PaintBrushIcon, PlayCircleIcon } from '@heroicons/react/24/outline'
 import React from 'react'
 
 const ServicesPage = () => {
@@ -26,19 +26,19 @@ const ServicesPage = () => {
               </h1>
             </div>
             <div className='flex-1 flex items-center justify-center gap-3 sm:w-1/4 h-16 shadow-xl  border' >
-              <BuildingStorefrontIcon className='w-9 h-9 text-orange-500 ' />
+              <ChartBarIcon className='w-9 h-9 text-yellow-300 ' />
               <h1 className='font-bold text-base' >
                 Lorem Ipsum
               </h1>
             </div>
             <div className='flex-1 flex items-center justify-center gap-3 sm:w-1/4 h-16 shadow-xl  border' >
-              <BuildingStorefrontIcon className='w-9 h-9 text-orange-500 ' />
+              <CalendarDaysIcon className='w-9 h-9 text-green-500 ' />
               <h1 className='font-bold text-base' >
                 Lorem Ipsum
               </h1>
             </div>
             <div className='flex-1 flex items-center justify-center gap-3 sm:w-1/4 h-16 shadow-xl  border' >
-              <BuildingStorefrontIcon className='w-9 h-9 text-orange-500 ' />
+              <PaintBrushIcon className='w-9 h-9 text-violet-500 ' />
               <h1 className='font-bold text-base' >
                 Lorem Ipsum
               </h1>
@@ -47,13 +47,13 @@ const ServicesPage = () => {
           </div>
           <div className='flex flex-col sm:flex-row flex-wrap gap-5' >
             <div className='flex-1 flex items-center justify-center gap-3 sm:w-1/4 h-16 shadow-xl  border' >
-              <BuildingStorefrontIcon className='w-9 h-9 text-orange-500 ' />
+              <CircleStackIcon className='w-9 h-9 text-lime-500 ' />
               <h1 className='font-bold text-base' >
                 Lorem Ipsum
               </h1>
             </div>
             <div className='flex-1 flex items-center justify-center gap-3 sm:w-1/4 h-16 shadow-xl  border' >
-              <BuildingStorefrontIcon className='w-9 h-9 text-orange-500 ' />
+              <PlayCircleIcon className='w-9 h-9 text-orange-500 ' />
               <h1 className='font-bold text-base' >
                 Lorem Ipsum
               </h1>
